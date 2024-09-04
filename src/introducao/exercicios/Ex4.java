@@ -10,6 +10,11 @@ public class Ex4 {
         System.out.println("Digite o numero do funcionario: ");
         int numero = ler.nextInt();
 
+        while (numero <= 0) {
+            System.out.println("O número do funcionário não pode ser negativo. Por favor, digite um número positivo:");
+            numero = ler.nextInt();
+        }
+
         System.out.println("Digite o total de horas trabalhadas no mês: ");
         int horasTrabalhadas =  ler.nextInt();
 
