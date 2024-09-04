@@ -16,6 +16,5 @@ public class Ex2 {
 
         System.out.println("O valor da área do circulo é: " + area);
 
-
     }
 }
