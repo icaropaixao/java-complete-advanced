@@ -39,7 +39,7 @@ public class Ex7 {
                 // Este trecho nunca será alcançado, pois o loop já garantiu um valor entre 1 e 7
                 break;
         }
-        
+
     }
 }
 
