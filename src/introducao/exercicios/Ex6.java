@@ -9,7 +9,7 @@ public class Ex6 {
 
         System.out.println("Digite um número inteiro: ");
         int numero = ler.nextInt();
-        
+
         if (numero % 2 == 0){
             System.out.println("O número "+numero+" é par");
         }else {
