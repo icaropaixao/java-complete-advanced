@@ -3,6 +3,8 @@ package poo.aplications;
 import java.util.Locale;
 import java.util.Scanner;
 
+// SEM ORIENTAÇÃO A OBJETOS
+
 public class ProblemaExemplo {
 
     public static void main(String[] args) {
