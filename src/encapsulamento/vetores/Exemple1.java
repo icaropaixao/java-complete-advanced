@@ -35,7 +35,7 @@ public class Exemple1 {
         double media = soma / vect.length;
 
         System.out.printf("A média é: %.2f", media);
-        
+
         scan.close();
     }
 }
