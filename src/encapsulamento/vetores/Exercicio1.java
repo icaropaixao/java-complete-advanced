@@ -2,6 +2,8 @@ package encapsulamento.vetores;
 
 import  java.util.Scanner;
 
+
+       // MOSTRA NUMEROS NEGATIVOS NA TELA
 public class Exercicio1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
