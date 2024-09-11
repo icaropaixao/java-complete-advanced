@@ -9,7 +9,7 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(new Locale("pt", "BR"));
         Scanner scan = new Scanner(System.in);
-        Product produto = new Product();
+        Product produto = new Product("a",12);
 
         System.out.println("Insira os dados do produto:");
 

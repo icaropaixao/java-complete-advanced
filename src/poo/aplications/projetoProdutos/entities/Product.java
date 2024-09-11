@@ -6,6 +6,15 @@ public class Product {
     public double preco;
     public int quantidade;
 
+    public Product(String name, double preco) {
+        this.name = name;
+        this.preco = preco;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
     public double valorTotal(){
         return preco * quantidade;
     }
