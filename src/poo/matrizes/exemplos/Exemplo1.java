@@ -2,7 +2,7 @@ package poo.matrizes.exemplos;
 
 import java.util.Scanner;
 
-public class Matrizes {
+public class Exemplo1 {
 
     public static void main(String[] args) {
 
