@@ -8,7 +8,6 @@ import java.time.format.DateTimeFormatter; // Importa a classe para formatação
 
 public class LocalDates {
     public static void main(String[] args) {
-
         // Faz o parsing de strings em objetos LocalDate, LocalDateTime e Instant
         LocalDate d04 = LocalDate.parse("2022-07-20"); // Data sem hora
         LocalDateTime d05 = LocalDateTime.parse("2024-04-13T03:33:33"); // Data e hora
