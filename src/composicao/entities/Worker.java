@@ -29,7 +29,6 @@ public class Worker {
     }
 
     // getters setters
-
     public List<HourContract> getContracts() {
         return contracts;
     }

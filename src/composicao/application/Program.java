@@ -26,7 +26,7 @@ public class Program {
         System.out.print("Level: ");
         String workerLevel = scan.nextLine();
 
-        System.out.print("Salatio base : ");
+        System.out.print("Salario base : ");
         double baseSalary = scan.nextDouble();
 
         Worker worker = new Worker(workerName ,WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName));
@@ -59,8 +59,6 @@ public class Program {
         System.out.println("Name: " + worker.getName());
         System.out.println("Departamento: " + worker.getDepartment().getName());
         System.out.println("O salario de : " + monthAndYear + ": " +String.format("%.2f", worker.income(year,month)));
-
-
 
         scan.close();
     }
