@@ -1,4 +1,4 @@
-package composicao.entities;
+package composicao.ex01.entities;
 import java.util.Date;
 
 public class HourContract {

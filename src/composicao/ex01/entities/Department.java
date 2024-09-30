@@ -1,4 +1,4 @@
-package composicao.entities;
+package composicao.ex01.entities;
 
 public class Department {
 

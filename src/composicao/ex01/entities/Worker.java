@@ -1,6 +1,6 @@
-package composicao.entities;
+package composicao.ex01.entities;
 
-import composicao.entities.enums.WorkerLevel;
+import composicao.ex01.entities.enums.WorkerLevel;
 
 import java.util.ArrayList;
 import java.util.Calendar;

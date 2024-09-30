@@ -1,4 +1,4 @@
-package composicao.entities.enums;
+package composicao.ex01.entities.enums;
 
 public enum WorkerLevel {
 

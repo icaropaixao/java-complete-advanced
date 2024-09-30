@@ -1,9 +1,9 @@
-package composicao.application;
+package composicao.ex01.application;
 
-import composicao.entities.Department;
-import composicao.entities.HourContract;
-import composicao.entities.Worker;
-import composicao.entities.enums.WorkerLevel;
+import composicao.ex01.entities.Department;
+import composicao.ex01.entities.HourContract;
+import composicao.ex01.entities.Worker;
+import composicao.ex01.entities.enums.WorkerLevel;
 
 import java.text.ParseException;
 import java.util.Date;
@@ -11,6 +11,7 @@ import java.text.SimpleDateFormat;
 import  java.util.Scanner;
 
 public class Program {
+
     public static void main(String[] args) throws ParseException {
 
         Scanner scan = new Scanner(System.in);
