@@ -37,6 +37,6 @@ public class LocalDates {
 
         System.out.println("d05 em formato ISO: " + d05.format(formato4)); // Exibe d05 no formato ISO
         System.out.println("d06 em formato ISO: " + formato5.format(d06)); // Exibe d06 no formato ISO
-   
+
     }
 }
