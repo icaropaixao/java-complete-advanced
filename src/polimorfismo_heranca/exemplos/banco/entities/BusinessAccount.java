@@ -24,7 +24,7 @@ public class BusinessAccount extends Account{
     // metodo de emprestimo
     public void loan(double amount) {
         if (amount <= loanLimit) {
-            balance += amount - 10.0; 
+            balance += amount - 10.0;
         }
 
     }
