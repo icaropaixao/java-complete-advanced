@@ -5,7 +5,6 @@ public class SavingAccount extends Account {
 
     private double interestRate; // juros
 
-
     // construtor
     public SavingAccount(){
         super();
@@ -15,7 +14,6 @@ public class SavingAccount extends Account {
         super(number, holder, balance);
         this.interestRate = interestRate;
     }
-
 
     // gets sets
     public  double getInterestRate(){
@@ -30,5 +28,11 @@ public class SavingAccount extends Account {
     public void updateBalance() {
         balance += balance  * interestRate;
 
+    }
+
+    // method de saque subscrevido
+    @Override
+    public  void withDraw(double amount){
+        balance -= amount;
     }
 }

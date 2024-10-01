@@ -25,6 +25,8 @@ public class Program {
 
         // Como fazer DOWN CASTING EM subclasses
         //  BusinessAccount acc5 = (BusinessAccount) acc3;
+
+        // instanceof (Verifica se acc3 é uma instancia de BusinessAccount)
         if (acc3 instanceof BusinessAccount) {
             BusinessAccount acc5 = (BusinessAccount) acc3;
 
