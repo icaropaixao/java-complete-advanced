@@ -1,7 +1,8 @@
 package polimorfismo_heranca.exemplos.banco.entities;
 
 // conta poupança
-public class SavingAccount extends Account {
+// public (final) evita que a classe seja herdada
+public final class SavingAccount extends Account {
 
     private double interestRate; // juros
 
