@@ -9,9 +9,20 @@ import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {
 
-        Account acc = new Account(333,"ícaro",130000);
+        Account acc = new Account(333,"ícaro",1000);
 
         BusinessAccount bacc = new BusinessAccount(334,"Manu",0,500);
+
+        acc.withDraw(100);
+        System.out.println("saldo: " + acc.getBalance());
+
+        Account acc7 = new SavingAccount(111,"jose",300,0);
+        acc7.withDraw(100);
+        System.out.println("saldo: " + acc7.getBalance());
+
+        BusinessAccount acc8 = new BusinessAccount(1121,"jose",200,0);
+        acc8.withDraw(100);
+        System.out.println("saldo: " + acc8.getBalance());
 
         // UPCASTING
         // é possivel atribuir objetos da super classe para um objeto da subclasse
