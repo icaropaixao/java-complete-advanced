@@ -21,8 +21,6 @@ public class OutSourcedEmployee extends Employee{
         this.additionalCharge = additionalCharge;
     }
 
-
-
     // metodo de pagamento alterado para funcionarios terceirizados usando polimorfismo com a logica já criada no metodo payment na classe Employee
     @Override
     public double payment(){
