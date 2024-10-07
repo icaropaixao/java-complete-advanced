@@ -1,4 +1,4 @@
-package exceptionss.try_catch.exemple1;
+package exceptionss.try_catch.stack_trace;
 
 
 import java.util.InputMismatchException;
