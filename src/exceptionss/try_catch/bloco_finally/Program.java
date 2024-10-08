@@ -10,7 +10,7 @@ public class Program {
 
         // O BLOCO FINALLY EXECUTA MESMO SE DER ERRO OU NÃO
         //EXEMPLO
-        
+
         Scanner sc = null;
 
         File file = new File("C:/excemplo");
